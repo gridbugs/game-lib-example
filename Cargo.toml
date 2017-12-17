@@ -1,0 +1,16 @@
+[package]
+name = "game-lib"
+version = "0.1.0"
+authors = ["Stephen Sherratt <sfsherratt@gmail.com>"]
+
+[dependencies]
+entity_store_helper = { git = "https://github.com/stevebob/entity-store-helper", rev = "use-cgmath-num-forks" }
+cgmath = { git = "https://github.com/stevebob/cgmath", rev = "rand-v0.4.0-pre.0", features = ["serde"] }
+direction = { git = "https://github.com/stevebob/direction", rev = "use-cgmath-fork" }
+serde = "1.0"
+serde_derive = "1.0"
+enum_primitive = "0.1"
+append = "0.1"
+
+[build-dependencies]
+entity_store_code_gen = { git = "https://github.com/stevebob/entity-store-code-gen", rev = "cast_option" }

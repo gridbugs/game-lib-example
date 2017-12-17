@@ -1,0 +1,10 @@
+[package]
+name = "ansi-frontend"
+version = "0.1.0"
+authors = ["Stephen Sherratt <sfsherratt@gmail.com>"]
+
+[dependencies]
+game-lib = { path = ".." }
+prototty = "0.4"
+prototty_elements = "0.7"
+cgmath = "0.15"
