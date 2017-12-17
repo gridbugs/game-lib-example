@@ -2,6 +2,8 @@
 name = "game-lib"
 version = "0.1.0"
 authors = ["Stephen Sherratt <sfsherratt@gmail.com>"]
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 entity_store_helper = { git = "https://github.com/stevebob/entity-store-helper", rev = "use-cgmath-num-forks" }
